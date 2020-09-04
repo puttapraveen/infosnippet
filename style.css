@@ -1,0 +1,74 @@
+body{
+  height: 100%;
+  margin: 0;
+  overflow-y: hidden;
+}
+.bg {
+    position: absolute;
+    display: flex;
+    width: 574px;
+    height: 1900px;
+    background-color: #63d0ff;
+    transform: rotate(187deg);
+    margin: -58px 0 0 -137px;
+    z-index: -50;
+}
+.container{
+width: 450px;
+height: 300px;
+display: flex;
+margin-left: 10px;
+flex-direction: column;
+  margin-top: 200px;
+  position: absolute;
+}
+.gameid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.head{
+    text-align: center;
+}
+.id{
+    margin-top: 20px;
+    width: 300px;
+    height: 80px;
+    background-color: lightgreen;
+    text-align: center;
+    padding-top: 20px;
+}
+.id h1{
+    word-spacing: ;
+    font-size: 45px;
+    font-weight: bold;
+}
+.share{
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+
+@media (max-width: 1500px) {
+  .main-img{
+    margin-top: 9%;
+    margin-right: -18%;
+    position: relative;
+    display: flex;
+    float: right;
+    width: 58%;
+  }
+	.bg {
+		position: absolute;
+		display: flex;
+		width: 574px;
+		height: 1900px;
+		background-color: #63d0ff;
+		transform: rotate(187deg);
+		margin: -58px 0 0 -137px;
+		z-index: -50;
+		
+	}
+	
+	
